@@ -76,7 +76,7 @@ int validat_command(char **cmd, char *input, int c, char **argv)
 }
 /**
  * handler - Handle the condition ^C
- * @sig:Captured Signal
+ * @signal: Captured Signal
  * Return: Void
  */
 void handler(int signal)
