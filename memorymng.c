@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- **_realloc -  Reallocates A Memory Block Using Malloc And Free
- *@ptr: Pointer
+ **_realloc -  Reallocating A Memory Block Using Malloc And Free
+ *@ptr: Ptr
  *@old_size: Previous Size Of The Pointer
  *@new_size: New Size Of The Pointer
- *Return: Void Pointer Rellocated Memory
+ *Return: Void Ptr Rellocated Memory
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
@@ -35,7 +35,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 
 }
 /**
- * free_the_whole_array - free the array and its elements
+ * free_the_whole_array - freeing the array and its elements
  * @cmd:Array p
  * @line:Char p
  * Return: Void
@@ -49,8 +49,8 @@ void free_the_whole_array(char **cmd, char *line)
 }
 
 /**
- * _memcpy - Copy from buffet to buffer
- * @dest: Destination buffer
+ * _memcpy - Copying from buffet to buffer
+ * @dest: Destintion buffer
  * @src: Source buffer
  * @n: Size of copied information
  *Return: void p
@@ -66,7 +66,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	return (dest);
 }
 /**
- * voidfiller - Fill the array
+ * voidfiller - Filling the array
  * @a:void pointer
  * @el: integer
  * @len:leng of an Int

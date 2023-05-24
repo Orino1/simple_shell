@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * main - Simple Shell (Hsh)
- * @argc: Argument Count
- * @argv:Argument Value
- * Return: Exit Value By Status
+ * main - Simple Shell
+ * @argc: Argument Cont
+ * @argv:Argumen Value
+ * Return: Exit Value
  */
 
 int main(__attribute__((unused)) int argc, char **argv)
@@ -47,9 +47,9 @@ int main(__attribute__((unused)) int argc, char **argv)
 	return (statue);
 }
 /**
- * check_builtins - validat builtin
+ * check_builtins - validating builtin
  *
- * @cmd: the comand
+ * @cmd: comand
  * Return: 0 or -1
  */
 int check_builtins(char **cmd)
@@ -76,7 +76,7 @@ int check_builtins(char **cmd)
 	return (-1);
 }
 /**
- * gene_array_env - generat Array of env Variable
+ * gene_array_env - generating Array of env Variable
  * @envi: Array of env Variable
  * Return: Void
  */

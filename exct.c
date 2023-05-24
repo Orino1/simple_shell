@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * handle_builtins - Handle Builtin Command
- * @cmd: command parsed
- * @er:statue previeuse exu
+ * handle_builtins - Handling Builtin Command
+ * @cmd: command
+ * @er:statue prev exu
  * Return: -1 or 0
  */
 
@@ -30,10 +30,10 @@ int handle_builtins(char **cmd, int er)
 	return (-1);
 }
 /**
- * validat_command - Excute a Command
+ * validat_command - Excuting a Command
  *
- * @cmd: the command
- * @input: input from user
+ * @cmd: command
+ * @input: input
  * @c: excu time case
  * @argv: name of the program
  * Return: 1 or -1 or 0
@@ -75,7 +75,7 @@ int validat_command(char **cmd, char *input, int c, char **argv)
 	return (0);
 }
 /**
- * handler - Handle the condition ^C
+ * handler - Handling the condition ^C
  * @signal: Captured Signal
  * Return: Void
  */

@@ -38,7 +38,7 @@ i = 0;
 }
 
 /**
- * _strlen - lenght of string
+ * _strlen - lenghtt of string
  * @s:char
  * Return:int
  */
@@ -55,7 +55,7 @@ return (i);
 }
 
 /**
- * _atoi - convert to a int
+ * _atoi - converting to a int
  * @s:string
  * Return:int
  */
@@ -80,7 +80,7 @@ int i, j, n, x;
 	return (n);
 }
 /**
- * _puts - print a string
+ * _puts - printing string
  * @str:pointer char
  * return:void
  */

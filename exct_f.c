@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * reading_file - read cmd from a file
+ * reading_file - reading cmd from a file
  * @filename: file name
  * @argv: program name
  * Return: -1 or  0
@@ -30,9 +30,9 @@ void reading_file(char *filename, char **argv)
 	exit(0);
 }
 /**
- * validat_file - validat Command in Line of File
- * @line: Line From A File
- * @counter: error num
+ * validat_file - validating Command in Line of File
+ * @line: Line From File
+ * @counter: error number
  * @fp: file D
  * @argv: Name of the program
  * Return : VOID
@@ -60,7 +60,7 @@ void validat_file(char *line, int counter, FILE *fp, char **argv)
 		}
 }
 /**
- * case_of_file - exit case
+ * case_of_file - exiting case
  * @line: buffer from a file
  * @cmd: the command
  * @fd: File D

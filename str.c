@@ -1,27 +1,29 @@
 #include "shell.h"
 /**
- * check_if - Checks If A Character Match Any Char *
- * @c: Character To Check
- * @str: String To Check
+ * check - Checking If A Character Match Any Char *
+ * @c: Char To Check
+ * @str: Str To Check
  * Return: 1 Succes, 0 Failed
  */
-unsigned int check_if(char c, const char *str)
+unsigned int check(char c, const char *str)
 {
 	unsigned int i;
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (c == str[i])
+		{
 			return (1);
+		}
 	}
 	return (0);
 }
 
 /**
- * _strtok - Token A String Into Token (strtrok)
- * @str: String
+ * _strtok - Token A Str Into Token
+ * @str: Str
  * @delim: Delimiter
- * Return: Pointer To The Next Token Or NULL
+ * Return: Ptr To The Next Token Or NULL
  */
 char *_strtok(char *str, const char *delim)
 {
@@ -36,7 +38,7 @@ char *_strtok(char *str, const char *delim)
 		return (NULL);
 	for (i = 0; ts[i] != '\0'; i++)
 	{
-		if (check_if(ts[i], delim) == 0)
+		if (check(ts[i], delim) == 0)
 			break;
 	}
 	if (nt[i] == '\0' || nt[i] == '#')
@@ -48,7 +50,7 @@ char *_strtok(char *str, const char *delim)
 	nt = ts;
 	for (i = 0; nt[i] != '\0'; i++)
 	{
-		if (check_if(nt[i], delim) == 1)
+		if (check(nt[i], delim) == 1)
 			break;
 	}
 	if (nt[i] == '\0')

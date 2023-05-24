@@ -1,16 +1,16 @@
 #include "shell.h"
 
 /**
- * thepromp - display the prompt
+ * thepromp - displaying the prompt
  */
 void thepromp(void)
 {
 	PRINTER("$ ");
 }
 /**
- * print_error - Display Error Based on Command and How Many Time Shell Looped
- * @input:User Input
- * @counter:Simple Shell Count Loop
+ * print_error - Displaying Error Based on Command and How Many Time Shell Looped
+ * @input:Input
+ * @counter:Count Loop
  * @argv:Program Name
  * Return: Void
  */

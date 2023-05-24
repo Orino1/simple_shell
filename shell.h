@@ -1,5 +1,5 @@
-#ifndef _SHELL_H_
-#define _SHELL_H_
+#ifndef _SHELL_H
+#define _SHELL_H
 
 #define BUFSIZE 1024
 #define DELIM " \t\r\n\a"
@@ -7,11 +7,11 @@
 extern char **environ;
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <unistd.h>
 #include <sys/types.h>
 #include <string.h>
 #include <sys/wait.h>
-#include <stdlib.h>
 #include <signal.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -19,7 +19,7 @@ extern char **environ;
 #include <linux/limits.h>
 
 char *_strtok(char *str, const char *tok);
-unsigned int check_if(char c, const char *str);
+unsigned int check(char c, const char *str);
 char *_strncpy(char *dest, char *src, int n);
 int _strlen(char *s);
 int _putchar(char c);
@@ -71,7 +71,7 @@ void _prerror(char **argv, int c, char **cmd);
 
 
 /**
- * struct bulltin - contain bultin to handle and function to excute
+ * struct bulltin - contain bultin to handle and  excute
  * @command:pointer to char
  * @fun:fun to excute when bultin true
  */

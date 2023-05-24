@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * command_path - search for the excu in the $PATH variable
- * @cmd: the command
+ * command_path - searching for the excu in the $PATH variable
+ * @cmd: command
  * Return: 0 or 1
  */
 int command_path(char **cmd)
@@ -30,7 +30,7 @@ int command_path(char **cmd)
 	return (1);
 }
 /**
- * genercmd - generat Command
+ * genercmd - generating Command
  * @token: exu Command
  * @value: dir of cmd
  *
@@ -57,8 +57,8 @@ char *genercmd(char *token, char *value)
 	return (cmd);
 }
 /**
- * _getenv - get the value of env by name
- * @name: the env variable name
+ * _getenv - getung the value of env by name
+ * @name: env variable name
  * Return: the value else NULL.
  */
 char *_getenv(char *name)

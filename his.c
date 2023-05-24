@@ -1,7 +1,7 @@
 #include "shell.h"
 /**
- * history - Fill File By User Input
- * @input: User Input
+ * history - Filling File By User Input
+ * @input: Input
  * Return: -1 Fail 0 Succes
  */
 int history(char *input)
@@ -26,7 +26,7 @@ int history(char *input)
 	return (1);
 }
 /**
- * free_array - free the array of envexctly
+ * free_array - freeing the array of envexctly
  * @env:  env variables.
  * Return: (Void)
  */

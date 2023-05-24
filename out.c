@@ -1,7 +1,7 @@
 #include "shell.h"
 /**
- *  _prerror - prnt error
- * @argv: name of the program
+ *  _prerror - printing error
+ * @argv: the program name
  * @c: number of error
  * @cmd: the commmand
  * Return: Void

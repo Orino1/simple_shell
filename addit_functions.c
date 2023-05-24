@@ -1,9 +1,9 @@
 #include "shell.h"
 /**
- * _strcpy - Copie Source To Destination Char
+ * _strcpy - Copies To Destination Char
  * @dest:Destination
  * @src:Source
- * Return: Copie Of Char *
+ * Return: Copie Of Char
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -46,7 +46,7 @@ char *_strcat(char *dest, char *src)
  * _strchr - Locate Charactere In String
  * @s:String Search In
  * @c:Char To Search For
- * Return: Pointer To Char*
+ * Return: s
  */
 char *_strchr(char *s, char c)
 {
@@ -67,7 +67,7 @@ return (s);
  * @s2: A String.
  * @n: Amount Of Characters To Compare.
  *
- * Return: 1 If The Strings Don't Match Otherwise 0
+ * Return: 0
  */
 int _strncmp(const char *s1, const char *s2, size_t n)
 {

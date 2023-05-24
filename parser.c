@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * command_parsed - parse the command from input
+ * command_parsed - parsing the command from input
  * @input: input
  * Return: Array of parsed commands
  */
