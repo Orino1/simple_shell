@@ -8,7 +8,7 @@ void thepromp(void)
 	PRINTER("$ ");
 }
 /**
- * print_error - Displaying Error Based on Command and How Many Time Shell Looped
+ * print_error - Displaying Error Based on Cmd and How Many Time Shell Looped
  * @input:Input
  * @counter:Count Loop
  * @argv:Program Name
